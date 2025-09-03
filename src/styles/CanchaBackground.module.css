@@ -5,6 +5,8 @@
     height: 100%;
     width: 100%;
     padding: 20px;
+    z-index: -999;
+    position: absolute;
     .cancha_border {
       border: 2px solid var(--color-text-background);
       height: 100%;
@@ -61,8 +63,40 @@
           }
         }
       }
+      .middle_area_container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .container_middle_section {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 105px;
+          height: 105px;
+          position: relative;
+        }
+      }
+    }
+    .semi_circle {
+      width: 100px;
+      height: 100px;
+      background: var(--background-color-green);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      border-bottom-left-radius: 100px;
+      border-bottom-right-radius: 100px;
+    }
+    .line_horizontal {
+      width: 100%;
+      background-color: var(--color-text-background);
+      height: 2px;
     }
   }
+  
 }
 
 /* Teléfonos grandes */

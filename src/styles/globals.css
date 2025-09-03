@@ -1,6 +1,8 @@
 :root {
   --background-color-green: #3D8D7A;
   --color-text-background: #FBFFE4;
+  --color-text-bacground-transparent: rgba(251, 255, 228, 0.8);
+  --background-color-green-transparent: rgba(61, 141, 122, 0.8)
 }
 
 

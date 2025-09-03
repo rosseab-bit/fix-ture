@@ -18,6 +18,10 @@ export default function Home() {
     <>
       <div className={`${styles.container_main}`}>
         <CanchaBackground />
+        <section className={`${styles.menu_bar_bottom}`}>
+        <span className={`${styles.menu_pelota}`}>⚽</span>
+
+        </section>
       </div>
     </>
   );
