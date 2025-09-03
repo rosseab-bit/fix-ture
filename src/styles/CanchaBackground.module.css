@@ -1,0 +1,126 @@
+/* Teléfonos */
+@media (max-width: 479px) {
+  .cancha_main_background {
+    background-color: var(--background-color-green);
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    .cancha_border {
+      border: 2px solid var(--color-text-background);
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      .container_area_arco {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        .area_arco_grande {
+          border-left: 2px solid var(--color-text-background);
+          border-right: 2px solid var(--color-text-background);
+          border-bottom: 2px solid var(--color-text-background);
+          height: 30%;
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          .area_arco_chica {
+            border-left: 2px solid var(--color-text-background);
+            border-right: 2px solid var(--color-text-background);
+            border-bottom: 2px solid var(--color-text-background);
+            height: 58%;
+            width: 60%;
+          }
+        }
+        .semi_circle {
+          width: 150px;
+          height: 150px;
+          background: var(--color-text-background);
+
+          /* recortamos un círculo y mostramos solo la mitad superior */
+          /*clip-path: circle(50% at 50% 100%);*/
+          clip-path: circle(50% at 50% 0);
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          .semi_circle_border_false {
+            width: 147px;
+            height: 147px;
+            background: var(--background-color-green);
+
+            /* recortamos un círculo y mostramos solo la mitad superior */
+            /*clip-path: circle(50% at 50% 100%);*/
+            clip-path: circle(50% at 50% 0);
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Teléfonos grandes */
+@media (min-width: 480px) and (max-width: 767px) {
+  .cancha_main_background {
+    background-color: var(--background-color-green);
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    .cancha_border {
+      border: 2px solid var(--color-text-background);
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cancha_main_background {
+    background-color: var(--background-color-green);
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    .cancha_border {
+      border: 2px solid var(--color-text-background);
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+/* Laptops */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .cancha_main_background {
+    background-color: var(--background-color-green);
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    .cancha_border {
+      border: 2px solid var(--color-text-background);
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1440px) {
+  .cancha_main_background {
+    background-color: var(--background-color-green);
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    .cancha_border {
+      border: 2px solid var(--color-text-background);
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
