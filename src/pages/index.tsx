@@ -1,28 +1,13 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import CanchaBackground from "@/components/CanchaBackground";
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
+import DefineContentView from "@/components/DefineContentView";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 export default function Home() {
-  return (
-    <>
-      <div className={`${styles.container_main}`}>
-        <CanchaBackground />
-        <section className={`${styles.menu_bar_bottom}`}>
-        <span className={`${styles.menu_pelota}`}>⚽</span>
+  const router = useRouter();
 
-        </section>
-      </div>
-    </>
-  );
+  useEffect(() => {
+    router.replace("/ranking"); // redirige a /dashboard
+  }, [router]);
+
+  return null // o un loader
 }
