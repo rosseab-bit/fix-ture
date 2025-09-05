@@ -1,0 +1,24 @@
+@media (max-width: 479px) {
+  .container_card_ranking {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: var(--background-color-green);
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    .container_card_ranking_item {
+      display: block;
+      color: var(--color-text-background);
+    }
+    .container_card_ranking_item:nth-child(1){
+      font-size: 30px;
+    }
+    .container_card_ranking_item:nth-child(2){
+      font-size: 30px;
+    }
+  }
+}

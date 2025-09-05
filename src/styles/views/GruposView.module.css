@@ -1,0 +1,9 @@
+@media (max-width: 479px) {
+    .container_view_grupos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,30 @@
+@media (max-width: 479px) {
+    .container_row_grupos{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        color: var(--color-text-background);
+        .row_grupos_item:nth-child(1){
+        }
+    }
+    .container_row_grupos > :first-child {
+        width: 25%;
+        height: 50px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid var(--color-text-background)
+ 
+    }
+    .container_row_grupos > :not(:first-child) {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid var(--color-text-background);
+        border-left: 1px solid var(--color-text-background);
+    }
+}
