@@ -1,0 +1,18 @@
+/* Teléfonos */
+@media (max-width: 479px) {
+    .container_partidos{
+        width: 100%;
+    }
+}
+
+/* Teléfonos grandes */
+@media (min-width: 480px) and (max-width: 767px) {}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {}
+
+/* Laptops */
+@media (min-width: 1024px) and (max-width: 1439px) {}
+
+/* Pantallas grandes */
+@media (min-width: 1440px) {}
