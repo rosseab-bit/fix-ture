@@ -24,10 +24,12 @@ const CardMatches = ({
     <div className={`${styles.container_matches}`}>
       {matches.map((item: any[], index: number) => (
         <div className={`${styles.section_match_card}`} key={index}>
+          <section className={`${styles.section_match}`}>
           <div className={`${styles.item_matches}`}>{item[0]}</div>
           <div className={`${styles.item_matches}`}>Vs.</div>
           <div className={`${styles.item_matches}`}>{item[1]}</div>
-          <div className={`${styles.item_matches}`}>{item[2]}</div>
+          </section>
+          <div className={`${styles.item_matches_date}`}>{item[2]}</div>
         </div>
       ))}
     </div>

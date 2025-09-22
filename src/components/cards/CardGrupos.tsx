@@ -6,7 +6,9 @@ const CardGrupos = () => {
     <>
       <div className={`${styles.container_card_grupos}`}>
         <section className={`${styles.container_card_grupos_title}`}>
-          <span className={`${styles.container_card_grupos_title_text}`}>Grupo A</span>
+          <span className={`${styles.container_card_grupos_title_text}`}>
+            Grupo A
+          </span>
         </section>
         <RowCardGrupos
           name={`Equipo`}
@@ -16,7 +18,7 @@ const CardGrupos = () => {
           perdidos={`PP`}
           goles={`GL`}
         />
-        {dataRowGrups.map((item: RowGroupsConf, index:number) => (
+        {dataRowGrups.map((item: RowGroupsConf, index: number) => (
           <RowCardGrupos
             name={item.name}
             puntos={item.puntos}

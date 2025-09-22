@@ -19,18 +19,27 @@
             border-radius: 10px;
             padding-left: 8px;
             padding-right: 8px;
+            border: 1px solid var(--border-gris-elements);
             background-color: var(--background-color-green-transparent);
             .item_matches{
                 color: var(--color-text-background)
             }
-            .item_matches:nth-child(4){
-                border-radius: 10px;
-                border: 1px solid var(--color-text-background);
+            .item_matches_date{
+                border-left: 1px solid var(--border-gris-elements);
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 padding: 5px;
+                color: var(--color-text-background);
+                width: 40%;
+            }
+            .section_match{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 50%;
             }
         }
 }
