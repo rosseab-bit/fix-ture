@@ -1,8 +1,11 @@
 :root {
-  --background-color-green: #3D8D7A;
+  /*--background-color-green: #3D8D7A;*/
+  --background-color-green: #000;
   --color-text-background: #FBFFE4;
-  --color-text-bacground-transparent: rgba(251, 255, 228, 0.8);
-  --background-color-green-transparent: rgba(61, 141, 122, 0.95)
+  --color-text-bacground-transparent: rgba(251, 255, 228, 0);
+  /*--background-color-green-transparent: rgba(61, 141, 122, 0.95)*/
+  --background-color-green-transparent: rgba(0, 0, 0, 0.95);
+  --border-gris-elements: #202020;
 }
 
 
